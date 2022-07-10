@@ -1,0 +1,396 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'calibri light'
+}
+
+#linea{
+	width: 100%;
+	height: 5px;
+	background: #086A87
+}
+
+#header{
+	width: 100%;
+	height: 90px;
+	background: #0B2F3A;
+}
+
+#header #centro1{
+	width: 800px;
+	height: auto; overflow: hidden;
+	border: 0px solid #fff;
+	margin: auto;
+}
+
+#header #centro1 #logo{
+	width: 200px; border: 0px solid; 
+	float: left;
+}
+
+#header #centro1 #logo h2,p{
+	color: #fdfdfd;
+}
+
+
+#header #centro1 #logo p{
+	color: #fdfdfd;
+	margin-top: -40px;
+	font-family: 'calibri light';
+	
+}
+
+/*----------------menu---------------------*/
+
+#header #menu{
+	width: 580px;
+	height: auto; overflow: hidden;
+	border: 0px solid; float: right;
+	margin-top: 40px;
+	text-align: right;
+	padding-bottom: -5px;
+
+}
+
+#header #menu ul li{
+	display: inline-block;
+	padding-top: 5px;
+}
+
+#header #menu ul li a{
+	color: #04B4AE; text-decoration: none;
+	padding: 7px 10px; font-size: 17px;
+	margin: 0px 4px;
+	margin-bottom: : 5px;
+}
+
+
+#header #menu ul li a:hover{
+	background: #0A2A29;
+	color: #04B4AE
+}
+/*---------------presentacion------------*/
+
+#presentacion{
+	width: 100%;
+	height: auto;overflow: hidden;
+	background: #064154;
+	padding: 10px 0px;
+}
+#presentacion #centro2{
+	width: 800px;
+	margin: auto; border: 0px solid;
+	
+}
+#presentacion #centro2 #izquierda{
+	width: 290px;
+	height: 200px; border: 0px solid; float: left;
+	
+}
+#presentacion #centro2 #izquierda h2{
+	color: #fff; font-weight: lighter;
+}
+
+.descripcion-pres{
+	color: #04B4AE; text-align: left; width: 200px;
+	margin-left: 0px;
+
+}
+
+.btn-default{
+	padding: 5px 20px; border-radius: 5px; border: 0px;
+}
+
+.btn-default:hover{
+	background:#E6E6E6 ;
+	color: #0B615E;
+}
+
+#presentacion #centro2 #derecha{
+	width: 490px;
+	height: auto; border: 0px solid; float: right;
+}
+
+.img{
+	width: 470px;
+	border: 3px solid #088A85;
+	height: 180px;
+	background-size: 100%;
+	margin: 20px 0px; float: right;
+	margin-right: 10px;
+}
+
+/*-----------contenidos----------*/
+#contenidos{
+	background: #F2F2F2;
+	padding: 0px 0px 20px 0px;
+}
+
+#contenidos-paginas{
+	background: #FFF;
+	padding: 0px 0px 20px 0px;
+}
+#contenidos #centro3{
+	width: 800px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+	text-align: center;
+
+}
+#contenidos #centro3 #izquierda{
+	width: 390px;
+	height: auto; overflow: hidden; border: 0px solid; float: left;
+	text-align: center;
+}
+
+
+
+
+
+#contenidos #centro3 #izquierda h3{
+	text-align: left; color: #0B615E;
+	font-size: 22px;
+}
+
+
+#contenidos #centro3 #izquierda .descripcion{
+	color: #6E6E6E; text-align: left;
+}
+
+#contenidos #centro3 #izquierda #imagenes{
+	border: 0px solid; height: auto;overflow: hidden;
+	width: 100%;
+}
+#contenidos #centro3 #izquierda #imagenes .img-services{
+	width: 120px; height: 100px;
+	border: 1px solid #ccc; padding: 2px; display: inline-block;
+}
+
+
+/*-------contenidos derecha-------*/
+
+#contenidos #centro3 #derecha{
+	width: 390px;
+	height: auto; overflow: hidden; border: 0px solid; float: right;
+	text-align: center;
+}
+
+#contenidos #centro3 #derecha h3{
+	text-align: left; font-size: 22px;
+	color: #0B615E;
+}
+
+#contenidos #centro3 #derecha article{
+	width: 100%;
+	height: auto; overflow: hidden;
+	margin-top: -25px;
+}
+
+#contenidos #centro3 #derecha article h4{
+	text-align: left; font-size: 15px;
+}
+
+#contenidos #centro3 #derecha article p{
+	color: #6E6E6E; text-align: left;
+	margin-top: -15px;
+}
+
+.leer-mas{
+	padding: 4px 10px; 
+	background: #086A87;
+	color: #fff; text-decoration: none;
+	border-radius: 5px; float: left;
+	margin-top: -1px; border: 0;
+}
+
+.leer-mas:hover{
+	background: #0B4C5F;
+}
+
+/*---------pie de pagina ----------------*/
+
+#pie{
+	border: 0px solid #000;
+	width: 100%;
+	height: 90px;
+	background: #0B2F3A;
+	margin-top: 0px;
+}
+
+#pie #centro-pie{
+	width: 800px;
+	height: auto; overflow: hidden;
+	margin: auto;
+}
+
+#pie #centro-pie .contacto{
+	color: #F2F2F2;
+	text-decoration: none;
+	font-family: 'calibri';
+}
+
+#pie #centro-pie .contacto:hover{
+	text-decoration: underline;
+}
+
+/*--------pagina de nosotros-----------------*/
+
+#centro3{
+	width: 800px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+	text-align: center;
+}
+
+.encabezados{
+	font-family: 'Arial black';
+	font-size: 30px;
+}
+
+.t1{
+	color: #424242;
+}
+
+.t2{
+		color: #0489B1;
+}
+
+.descripcion-pagina{
+	color: #848484;
+}
+
+.texto-nosotros{
+	text-align: left;
+}
+
+hr{
+	border-top: 1px;
+}
+
+.img-nosotros{
+	float: left;
+	margin-right: 7px;
+}
+
+#filosofia{
+	height: auto; overflow: hidden;
+}
+
+#mision, #vision, #valores{
+	width: 245px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#vision{
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+
+/*--------pagina de servivios-------*/
+.servicios{
+	font-family: 'Arial black';
+	font-size: 20px;
+}
+
+.uno{
+	color: #424242;
+}
+
+.dos{
+	color: #0489B1
+}
+
+#disenio{
+	width: 250px;
+	height: 300px;
+	border: 0px solid #ccc;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.img-servicios{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+
+.web{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/computer.jpg');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+
+/* Nav */
+
+.nav {
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__title {
+    font-weight: 300;
+}
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav__items {
+    list-style: none;
+}
+
+.nav__links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav__img {
+    display: block;
+    width: 30px;
+}
+
+
+.nav__close {
+    display: var(--show, none);
+}
